@@ -1,0 +1,9 @@
+---
+title: "Content page"
+---
+
+Here I link to other files to download.\
+\
+
+-   [Content 1, pdf](content/shiny.pdf)
+-   [Content 2, downloads excel file.](content/excel.xlsx)\

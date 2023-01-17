@@ -1,0 +1,39 @@
+project:
+  type: website
+
+website:
+  title: "My Website"
+  search: false
+  navbar:
+    background: "primary" # “primary”, “secondary”, “success”, “danger”, “warning”, “info”, “light”, “dark”, or hex color
+    foreground: "#ffffff"
+    search: false
+    right:
+      - href: index.qmd
+        text: Home
+      - href: content.qmd
+        text: Content
+      - text: Menu
+        menu:
+        - text: Menu 1
+          href: menu01.qmd
+        - text: Menu 2
+          href: menu02.qmd
+      - href: posts.qmd
+        text: Posts
+      - href: about.qmd
+        text: About
+  page-footer: 
+    background: light
+    center:
+      - "© 2023. Made with Quarto."
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+
+editor: visual
+
