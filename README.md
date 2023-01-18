@@ -12,9 +12,4 @@ The idea is to have a **minimal website skeleton** with:
 -   Blog posts
 -   About page
 
-You are welcome to get inspired and go for the code.
-\
-\
-
-Note:\
-Since this site is published with GitHub pages the html folder needs to be named "docs". I do this by adding *output_dir: "docs"* in the "\_site.yml" file. Otherwise is the default foldername "\_site". (See also: https://rstudio.github.io/distill/publish_website.html)
+You are welcome to get inspired and go for the code.\
