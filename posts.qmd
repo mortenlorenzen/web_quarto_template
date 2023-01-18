@@ -7,6 +7,7 @@ listing:
 #  categories: true
   sort-ui: false
   filter-ui: false
+  image-height: 200px
 page-layout: full  # article, full, or custom
 title-block-banner: true
 ---
