@@ -25,14 +25,35 @@
     "href": "content.html",
     "title": "Content page",
     "section": "",
-    "text": "Here I link to other files to download.\n\n\n\nContent 1, pdf\nContent 2, downloads excel file."
+    "text": "Content1Content2\n\n\nHere I link to other files to download.\n\n\n\nContent 1, pdf\nContent 2, downloads excel file\n\n\nColumns\n\n\nContent\n\n\n\n\nNewArchive\n\n\n\nContent 1, pdf\n\n\n\n\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\n\n\n\n\n\n\n\n\nOther things in columns\n\n\nContent\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n\n\n\n\nHere I link to other files to download.\n\n\n\nContent 1, pdf\nContent 2, downloads excel file"
+  },
+  {
+    "objectID": "content2.html",
+    "href": "content2.html",
+    "title": "Content page",
+    "section": "",
+    "text": "Here I link to other files to download."
+  },
+  {
+    "objectID": "content2.html#columns",
+    "href": "content2.html#columns",
+    "title": "Content page",
+    "section": "Columns",
+    "text": "Columns\n\n\nContent\n\n\n\n\nNewArchive\n\n\n\nContent 1, pdf\n\n\n\n\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf"
+  },
+  {
+    "objectID": "content2.html#other-things-in-columns",
+    "href": "content2.html#other-things-in-columns",
+    "title": "Content page",
+    "section": "Other things in columns",
+    "text": "Other things in columns\n\n\nContent\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "My Website Title",
     "section": "",
-    "text": "This Website/Blog is made with Quarto, Creating a Website.\nThe idea is to have a minimal website skeleton with a:\n\nLanding page / Home\nContent page with downloads\nMenu pages\nBlog posts\nAbout page\n\n\nThemes\nHTML documents rendered with Quarto use Bootstrap 5 by default.\n\nWebsites/Blogs can use any of the 25 Bootswatch themes included with Quarto. For example, this website uses the cosmo theme. See the 25 themes here and the .scss theme files are here.\n\nYou can also create your own themes.\n\n\n\nOther extensions\n\nQuarto Lightbox extension\nQuarto Nutshell extension"
+    "text": "This Website/Blog is made with Quarto, Creating a Website.\nThe idea is to have a minimal website skeleton with a:\n\nLanding page / Home\nContent page with downloads, Columns and Tabsets\nMenu pages\nBlog posts\nAbout page\n\n\nThemes\nHTML documents rendered with Quarto use Bootstrap 5 by default.\n\nWebsites/Blogs can use any of the 25 Bootswatch themes included with Quarto. For example, this website uses the cosmo theme. See the 25 themes here and the .scss theme files are here.\n\nYou can also create your own themes.\n\n\n\nOther extensions\n\nQuarto Lightbox extension\nQuarto Nutshell extension"
   },
   {
     "objectID": "about.html",

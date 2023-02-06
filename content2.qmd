@@ -2,18 +2,13 @@
 title: "Content page"
 ---
 
-::: {.panel-tabset}
-
-## Content1
-
-
 Here I link to other files to download.\
 \
 
 -   [Content 1, pdf](content/shiny.pdf)
 -   [Content 2, downloads excel file](content/excel.xlsx)
 
-### Columns
+## Columns
 
 ::: columns
 ::: {.column width="55%"}
@@ -47,7 +42,7 @@ Content
 :::
 :::
 
-### Other things in columns
+## Other things in columns
 
 ::: columns
 ::: {.column width="55%"}
@@ -60,16 +55,4 @@ Content
 ::: {.column width="40%"}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 :::
-:::
-
-
-
-## Content2
-
-Here I link to other files to download.\
-\
-
--   [Content 1, pdf](content/shiny.pdf)
--   [Content 2, downloads excel file](content/excel.xlsx)
-
 :::
