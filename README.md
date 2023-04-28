@@ -9,6 +9,7 @@ The idea is to have a **minimal website skeleton** with:
 -   Landing page
 -   Content page with downloads, Columns and Tabsets
 -   Menu pages
+-   Lightbox  Gallery
 -   Blog posts
 -   About page
 

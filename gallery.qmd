@@ -1,0 +1,91 @@
+---
+title: "Lightbox Gallery"
+filters:
+  - lightbox
+lightbox: 
+  match: auto
+  effect: zoom
+  desc-position: bottom
+  loop: true
+---
+
+On this page are different samples using the [Quarto Lightbox extension](https://github.com/quarto-ext/lightbox)
+
+\
+
+The below demonstrates placing images with same sizes in 5 columns in a gallery. 
+
+::: {layout-ncol=5}
+
+![](images/IMG_5948.JPG){group="slide_1" description="Can Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen) "}
+
+![](images/IMG_5974.JPG){group="slide_1" description="Can Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen) "}
+
+![](images/IMG_5983.JPG){group="slide_1" description="Can Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen) "}
+
+![](images/IMG_5985.JPG){group="slide_1" description="Can Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen) "}
+
+![](images/IMG_5986.JPG){group="slide_1" description="Can Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen) "}
+
+![](images/IMG_6074.JPG){group="slide_1" description="Can Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen)"}
+
+![](images/IMG_6113.JPG){group="slide_1" description="Can Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen) "}
+
+:::
+
+\
+
+The below demonstrates placing images with same sizes in one row in a gallery. 
+
+::: {layout-nrow=1}
+
+![](images/IMG_2356.jpeg){group="slide_3" description="Brage på tur på Isefjorden og Roskilde fjord i 2021. (© Morten Lorenzen)"}
+
+![](images/IMG_2378.jpeg){group="slide_3" description="Tjalfe, Freja og Røskva på tur på Isefjorden og Roskilde fjord i 2021. (© Morten Lorenzen) "}
+
+![](images/IMG_2427.jpeg){group="slide_3" description="Inriggere på tur på Isefjorden og Roskilde fjord i 2021. (© Morten Lorenzen) "}
+
+![](images/IMG_2846.jpeg){group="slide_3" description="Med gig både på Douro floden i Portugal i 2021. (© Morten Lorenzen)"}
+
+![](images/IMG_2862.jpeg){group="slide_3" description="Med gig både på Douro floden i Portugal i 2021. (© Morten Lorenzen)"}
+
+![](images/IMG_2932.jpeg){group="slide_3" description="Med gig både på Douro floden i Portugal i 2021. (© Morten Lorenzen)"}
+
+:::
+
+\
+
+The below demonstrates placing images with different sizes in one row in a gallery. 
+
+::: {layout-nrow=1}
+
+![](images/Compr_unsplash01.jpeg){group="slide_2" description="Here is a text for the image."}
+
+![](images/Compr_unsplash02.jpeg){group="slide_2" description="Here is a text for the image."}
+
+![](images/Compr_unsplash03.jpeg){group="slide_2" description="Here is a text for the image."}
+
+![](images/Compr_unsplash04.jpeg){group="slide_2" description="Here is a text for the image."}
+
+![](images/Compr_unsplash05.jpeg){group="slide_2" description="Here is a text for the image."}
+
+![](images/Compr_unsplash06.jpeg){group="slide_2" description="Here is a text for the image."}
+
+![](images/Compr_unsplash07.jpeg){group="slide_2" description="Here is a text for the image."}
+
+![](images/Compr_unsplash08.jpeg){group="slide_2" description="Here is a text for the image."}
+
+![](images/Compr_unsplash09.jpeg){group="slide_2" description="Here is a text for the image."}
+:::
+
+\
+
+An image with automatic lightbox treatment.
+
+![](images/IMG_5935.JPG){description="Can Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen) " width=5in fig-align="left"}
+
+\
+
+An image without  automatic lightbox treatment.
+
+![](images/IMG_5935.JPG){description="Can Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen)" width=5in fig-align="left" .nolightbox}
