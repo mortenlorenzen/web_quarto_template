@@ -58,9 +58,9 @@
   {
     "objectID": "gallery.html",
     "href": "gallery.html",
-    "title": "Lightbox Gallery",
+    "title": "Galleries",
     "section": "",
-    "text": "On this page are different samples using the Quarto Lightbox extension\n\n\nThe below demonstrates placing images with same sizes in 5 columns in a gallery.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe below demonstrates placing images with same sizes in one row in a gallery.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe below demonstrates placing images with different sizes in one row in a gallery.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn image with automatic lightbox treatment.\n\n\n\n\n\n\n\nAn image without automatic lightbox treatment."
+    "text": "On this page I have Image Gallery examples using 2 different tools:"
   },
   {
     "objectID": "about.html",
@@ -110,5 +110,19 @@
     "title": "Menu 2",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "objectID": "gallery.html#slickr-gallery",
+    "href": "gallery.html#slickr-gallery",
+    "title": "Galleries",
+    "section": "slickR Gallery",
+    "text": "slickR Gallery\nHere I use the {slickR} package to build an image carousel."
+  },
+  {
+    "objectID": "gallery.html#lightbox-gallery",
+    "href": "gallery.html#lightbox-gallery",
+    "title": "Galleries",
+    "section": "Lightbox Gallery",
+    "text": "Lightbox Gallery\nBelow are different samples using the Quarto Lightbox extension\n\n\nThe below demonstrates placing images with same sizes in 5 columns in a gallery.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe below demonstrates placing images with same sizes in one row in a gallery.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe below demonstrates placing images with different sizes in one row in a gallery.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn image with automatic lightbox treatment.\n\n\n\n\n\n\n\nAn image without automatic lightbox treatment."
   }
 ]

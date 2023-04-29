@@ -1,5 +1,5 @@
 ---
-title: "Lightbox Gallery"
+title: "Galleries"
 filters:
   - lightbox
 lightbox: 
@@ -9,7 +9,14 @@ lightbox:
   loop: true
 ---
 
-On this page are different samples using the [Quarto Lightbox extension](https://github.com/quarto-ext/lightbox)
+On this page I have Image Gallery examples using 2 different tools:
+
+- Quarto Lightbox extension
+- Image carousel with the {slickR} package
+
+## Lightbox Gallery
+
+Below are different samples using the [Quarto Lightbox extension](https://github.com/quarto-ext/lightbox)
 
 \
 
@@ -89,3 +96,30 @@ An image with automatic lightbox treatment.
 An image without  automatic lightbox treatment.
 
 ![](images/IMG_5935.JPG){description="Can Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen)" width=5in fig-align="left" .nolightbox}
+
+
+
+## slickR Gallery
+
+Here I use the [{slickR} ](https://cran.r-project.org/web/packages/slickR/index.html) package to build an image carousel.
+
+\
+
+```{r}
+#| echo: false
+#| error: false
+#| message: false
+
+library(here)
+library(slickR)
+
+# Create carousels / a swiper with {slickR} or {swipeR}
+
+
+path <- paste0(here::here(), "/images/")
+photos <- list.files(path = path, pattern = "IMG_*")
+
+path_photos <- paste0(path, photos)
+
+slickR::slickR(obj = path_photos, height = 400, width = "90%")
+```
