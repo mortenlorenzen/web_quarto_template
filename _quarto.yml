@@ -42,7 +42,7 @@ format:
       - cosmo
       - theme_custom.scss
     css: styles.css
-    toc: false
+    toc: true
 
 # editor: visual
 

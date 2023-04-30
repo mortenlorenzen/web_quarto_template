@@ -1,5 +1,6 @@
 ---
 title: "Galleries"
+number-sections: true
 filters:
   - lightbox
 lightbox: 
@@ -11,8 +12,8 @@ lightbox:
 
 On this page I have Image Gallery examples using 2 different tools:
 
-- Quarto Lightbox extension
-- Image carousel with the {slickR} package
+1. Quarto Lightbox extension
+1. Image carousel with the {slickR} package
 
 ## Lightbox Gallery
 
@@ -20,7 +21,7 @@ Below are different samples using the [Quarto Lightbox extension](https://github
 
 \
 
-The below demonstrates placing images with same sizes in 5 columns in a gallery. 
+The below demonstrates placing images with same sizes in 5 columns in a gallery. On mobile devices images are places underneath each other.
 
 ::: {layout-ncol=5}
 
@@ -42,7 +43,7 @@ The below demonstrates placing images with same sizes in 5 columns in a gallery.
 
 \
 
-The below demonstrates placing images with same sizes in one row in a gallery. 
+The below demonstrates placing images with same sizes in one row in a gallery.  On mobile devices images are places underneath each other.
 
 ::: {layout-nrow=1}
 
@@ -62,7 +63,7 @@ The below demonstrates placing images with same sizes in one row in a gallery.
 
 \
 
-The below demonstrates placing images with different sizes in one row in a gallery. 
+The below demonstrates placing images with different sizes in one row in a gallery. On mobile devices images are places underneath each other.
 
 ::: {layout-nrow=1}
 
