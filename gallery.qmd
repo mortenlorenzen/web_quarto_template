@@ -10,7 +10,7 @@ lightbox:
   loop: true
 ---
 
-On this page I have Image Gallery examples using 2 different tools:
+Take a look on this page at Image Galleries examples using 2 different tools:
 
 1. Quarto Lightbox extension
 1. Image carousel with the {slickR} package
