@@ -1,0 +1,184 @@
+---
+title: "Callout Blocks"
+---
+
+Quarto Docs: [Callout Blocks](https://quarto.org/docs/authoring/callouts.html)
+
+
+## Default Appearance
+
+[with colored header and an icon]{style="color:red"}
+
+::: {.callout-note title="Note Title ..."}
+Note that there are five types of callouts, including: `note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+
+::: {.callout-warning title="Warning Title ..."}
+The default appearance with colored header and an icon.
+:::
+
+
+::: {.callout-important title="Important Title ..."}
+The default appearance with colored header and an icon.
+:::
+
+
+::: {.callout-tip title="Tip Title ..."}
+The default appearance with colored header and an icon.
+:::
+
+
+::: {.callout-caution title="Caution Title ..."}
+The default appearance with colored header and an icon.
+:::
+
+
+
+## Customizing Appearance
+
+::: {.callout-note title="Note Title ..." appearance="simple"}
+`appearance="simple"`: A lighter weight appearance that doesn’t include a colored header background.
+:::
+
+
+::: {.callout-note title="Note Title ..." appearance="minimal"}
+`appearance="minimal"`: A minimal treatment that applies borders to the callout, but doesn’t include a header background color or icon.
+:::
+
+
+::: {.callout-note appearance="minimal"}
+`appearance="minimal"`: A minimal treatment that applies borders to the callout, but doesn’t include a header background color or icon and **without a title**.
+:::
+
+
+::: {.callout-note title="Note Title ..." icon=false}
+`icon=false`: You can also choose to directly suppress the icon.
+:::
+
+
+::: {.callout-note title="Note Title ...collapse=true" collapse="true"}
+`collapse="true"`: This is an example of a 'folded' note callout that can be expanded by the user. 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est id erat ultricies maximus. Donec quis eros mi. Mauris consequat nunc lectus, eget convallis ligula ultrices sit amet. 
+
+Aenean facilisis tempor fringilla. Suspendisse a maximus justo, in tincidunt odio. Pellentesque semper justo sit amet erat interdum, sed pulvinar nisl ultrices. In sit amet neque neque. Nulla ultricies, risus et facilisis lobortis, dui tortor tempor nulla, eget hendrerit ex sem id ligula. 
+
+Morbi sed rhoncus mi. Cras vel faucibus ligula. Aenean pretium tellus id enim porta interdum.
+:::
+
+
+## My example: Weekly Schedule
+
+::: {.callout-tip icon="false" collapse="true"}
+## Monday schedule
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est id erat ultricies maximus. Donec quis eros mi. Mauris consequat nunc lectus, eget convallis ligula ultrices sit amet. 
+
+Aenean facilisis tempor fringilla. Suspendisse a maximus justo, in tincidunt odio. Pellentesque semper justo sit amet erat interdum, sed pulvinar nisl ultrices. In sit amet neque neque. Nulla ultricies, risus et facilisis lobortis, dui tortor tempor nulla, eget hendrerit ex sem id ligula. 
+
+Morbi sed rhoncus mi. Cras vel faucibus ligula. Aenean pretium tellus id enim porta interdum.
+:::
+
+
+::: {.callout-tip icon="false" collapse="true"}
+## Tuesday schedule
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est id erat ultricies maximus. Donec quis eros mi. Mauris consequat nunc lectus, eget convallis ligula ultrices sit amet. 
+
+Aenean facilisis tempor fringilla. Suspendisse a maximus justo, in tincidunt odio. Pellentesque semper justo sit amet erat interdum, sed pulvinar nisl ultrices. In sit amet neque neque. Nulla ultricies, risus et facilisis lobortis, dui tortor tempor nulla, eget hendrerit ex sem id ligula. 
+
+Morbi sed rhoncus mi. Cras vel faucibus ligula. Aenean pretium tellus id enim porta interdum.
+:::
+
+
+::: {.callout-tip icon="false" collapse="true"}
+## Wednesday schedule
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est id erat ultricies maximus. Donec quis eros mi. Mauris consequat nunc lectus, eget convallis ligula ultrices sit amet. 
+
+Aenean facilisis tempor fringilla. Suspendisse a maximus justo, in tincidunt odio. Pellentesque semper justo sit amet erat interdum, sed pulvinar nisl ultrices. In sit amet neque neque. Nulla ultricies, risus et facilisis lobortis, dui tortor tempor nulla, eget hendrerit ex sem id ligula. 
+
+Morbi sed rhoncus mi. Cras vel faucibus ligula. Aenean pretium tellus id enim porta interdum.
+:::
+
+
+::: {.callout-important icon="false" collapse="true"}
+## Thursday Exam
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est id erat ultricies maximus. Donec quis eros mi. Mauris consequat nunc lectus, eget convallis ligula ultrices sit amet. 
+
+Aenean facilisis tempor fringilla. Suspendisse a maximus justo, in tincidunt odio. Pellentesque semper justo sit amet erat interdum, sed pulvinar nisl ultrices. In sit amet neque neque. Nulla ultricies, risus et facilisis lobortis, dui tortor tempor nulla, eget hendrerit ex sem id ligula. 
+
+Morbi sed rhoncus mi. Cras vel faucibus ligula. Aenean pretium tellus id enim porta interdum.
+:::
+
+
+## My example: Custom icons (in the title text)
+
+::: {.callout-note icon="false" collapse="true"}
+## ☎ Contact Information
+**Tintin**\
+My Street 1\
+My Town, My Contry\
+
+🌐 [mywebsite.com]()\
+📧 mymail.com\
+☎️ 2233 4455
+:::
+
+
+::: {.callout-note icon="false" collapse="true"}
+## {{< fa plane-departure >}} Flight Information
+
+Outbound Journey: 
+
+- Atlantic Airways
+- Departure: Copenhagen/CPH Sunday, April 14, 10:00 
+- Arrival: Vagar/FAE 12:15 (flight time 2t. 15min.)
+
+
+Return Journey:
+
+- Atlantic Airways
+- Departure: Vagar/FAE Friday, April 19, 13:00
+- Arrival: Copenhagen/CPH 15:05 (flight time 2t. 05min.)
+
+:::
+
+
+
+## Ressources for other Customization
+
+- Melissa Van Bussel (ggnot2) YouTube: [How to create CUSTOM Callout Boxes in Quarto](https://www.youtube.com/watch?v=DDQO_3R-q74), with our own icons and colour schemes
+- Here a nice Quarto website, where Neeldhara Misra takes Callout Blocks to the next level: [Neeldhara
+    Misra](https://www.neeldhara.com/),
+     [GitHub](https://github.com/neeldhara/quartosite)
+- Blogpost [Making pretty note boxes](https://desiree.rbind.io/blog/making-tip-boxes-with-bookdown-and-rmarkdown/)
+
+
+
+## HTML Demo: details element
+
+
+```{=html}
+<details>
+  <summary>HTML details</summary>
+  The details HTML element creates a disclosure widget in which information is visible only when the widget is toggled into an open state. A summary or label must be provided using the summary element.
+</details>
+```
+
+
+
+```{=html}
+<details>
+  <summary>Photo</summary>
+ <img src="images/IMG_2378.jpeg" alt="" width="800">
+</details>
+```
+
+
+
+
+```{=html}
+<details>
+  <summary>PDF</summary>
+  <a href="content/shiny.pdf">Content 1, pdf</a>
+</details>
+```

@@ -12,8 +12,23 @@ lightbox:
 
 Take a look on this page at Image Galleries examples using 2 different tools:
 
+
+1. Photos placed in columns
 1. Quarto Lightbox extension
 1. Image carousel with the {slickR} package
+
+## Photos placed in columns
+
+2 images placed in columns (with `.nolightbox`)
+
+
+::: {layout-ncol=2}
+![](images/IMG_2356.jpeg){.nolightbox}
+
+![](images/IMG_2378.jpeg){.nolightbox}
+:::
+
+
 
 ## Lightbox Gallery
 
@@ -90,13 +105,13 @@ The below demonstrates placing images with different sizes in one row in a galle
 
 An image with automatic lightbox treatment.
 
-![](images/IMG_5935.JPG){description="Can Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen) " width=5in fig-align="left"}
+![Can Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen)](images/IMG_5935.JPG){description="Can Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen) " width=5in fig-align="left"}
 
 \
 
 An image without  automatic lightbox treatment.
 
-![](images/IMG_5935.JPG){description="Can Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen)" width=5in fig-align="left" .nolightbox}
+![Can Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen)](images/IMG_5935.JPG){width=5in fig-align="left" .nolightbox}
 
 
 

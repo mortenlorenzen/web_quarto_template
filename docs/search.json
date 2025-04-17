@@ -1,80 +1,45 @@
 [
   {
-    "objectID": "posts/2022-02-07-week6/index.html",
-    "href": "posts/2022-02-07-week6/index.html",
-    "title": "Week 6",
+    "objectID": "google_sheet.html",
+    "href": "google_sheet.html",
+    "title": "Share Google Sheet",
     "section": "",
-    "text": "This i my post for week 6.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "text": "The owner of the Google Sheet manages access rights in Google Drive.\nOpen and edit Google Sheet test\n\nEmbed Google Sheet test and edit:"
   },
   {
-    "objectID": "posts/2022-01-31-week5/index.html",
-    "href": "posts/2022-01-31-week5/index.html",
-    "title": "Week 5",
+    "objectID": "fonts.html",
+    "href": "fonts.html",
+    "title": "Fonts and fontsizes",
     "section": "",
-    "text": "This i my post for week 5.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "text": "Fonts in the Cosmo theme cosmo.scss file:\n\n\ncosmo.scss\n\n$font-family-sans-serif:    \"Source Sans Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\" !default;\n\n\n-apple-system and BlinkMacSystemFont are aliases for the default fonts on new macOS and iOS computers.\nIf the first font is not available on the user’s system, the browser will try the next one, and so on.\nSegoe * from Microsoft, used on Windows\nI use the default font \"Source Sans Pro\". See also here the Google font: Source Sans 3\n\nI can change the font in the _quarto.yml file\n\n\n_quarto.yml\n\nformat:\n  html:\n    theme:\n      - cosmo\n      - theme_custom.scss\n    css: styles.css\n    mainfont: \"Helvetica Neue\"\n\nOnly small difference between “Arial” and “Helvetica Neue”.\n\n\nfont-family CSS property\nWorld Wide Web Consortium (W3C): FONT FAMILIES\nFont Matrix – See & Pair Typefaces Like Never Before\nCompare “Source Sans Pro” and “Open Sans”\n2 Google Fonts Similar to Calibri"
   },
   {
-    "objectID": "posts/2022-02-14-week7/index.html",
-    "href": "posts/2022-02-14-week7/index.html",
-    "title": "Week 7",
+    "objectID": "fonts.html#theme-cosmo-fonts",
+    "href": "fonts.html#theme-cosmo-fonts",
+    "title": "Fonts and fontsizes",
     "section": "",
-    "text": "This i my post for week 7.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "text": "Fonts in the Cosmo theme cosmo.scss file:\n\n\ncosmo.scss\n\n$font-family-sans-serif:    \"Source Sans Pro\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\" !default;\n\n\n-apple-system and BlinkMacSystemFont are aliases for the default fonts on new macOS and iOS computers.\nIf the first font is not available on the user’s system, the browser will try the next one, and so on.\nSegoe * from Microsoft, used on Windows\nI use the default font \"Source Sans Pro\". See also here the Google font: Source Sans 3\n\nI can change the font in the _quarto.yml file\n\n\n_quarto.yml\n\nformat:\n  html:\n    theme:\n      - cosmo\n      - theme_custom.scss\n    css: styles.css\n    mainfont: \"Helvetica Neue\"\n\nOnly small difference between “Arial” and “Helvetica Neue”.\n\n\nfont-family CSS property\nWorld Wide Web Consortium (W3C): FONT FAMILIES\nFont Matrix – See & Pair Typefaces Like Never Before\nCompare “Source Sans Pro” and “Open Sans”\n2 Google Fonts Similar to Calibri"
   },
   {
-    "objectID": "content.html",
-    "href": "content.html",
-    "title": "Content page",
+    "objectID": "fonts.html#html-fontsizes",
+    "href": "fonts.html#html-fontsizes",
+    "title": "Fonts and fontsizes",
+    "section": "HTML Fontsizes",
+    "text": "HTML Fontsizes\nBootstrap defines over 1,400 Sass variables that control fonts, colors, padding, borders, and much more. You can see all of the variables here: bootstrap/scss/_variables.scss\n\n\n_variables.scss\n\n$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`\n\n\n1em -&gt; 16px\n1.1em -&gt; 17.6px\n1.2em -&gt; 19.2px\n1.3em -&gt; 20.8px\n\nWhen I have fontsize: 1.1em in my quarto.yaml file and I define a new fontsize in my qmd files, I will keep same fontsize with 1rem and increase fontsize with 1.1remfrom 17.6px x 1.1 to 19.36px."
+  },
+  {
+    "objectID": "fonts.html#compare-html-fontsizes-and-fonts",
+    "href": "fonts.html#compare-html-fontsizes-and-fonts",
+    "title": "Fonts and fontsizes",
+    "section": "Compare HTML fontsizes and fonts",
+    "text": "Compare HTML fontsizes and fonts\nfont-size: 1rem; font-family: ‘Source Sans Pro’\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nG - Website navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites.\nfont-size: 1rem; font-family: ‘Helvetica Neue’\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nG - Website navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites.\nfont-size: 1rem; font-family: ‘Arial’\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nG - Website navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites.\nfont-size: 1rem; font-family: ‘Roboto - downloaded’\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nG - Website navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites.\n\nNO CHANGE in font-size, font-family: ‘Roboto - downloaded’\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nG - Website navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites.\n\nfont-size: 1.1rem; font-family: ‘Source Sans Pro’\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nG - Website navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites.\nfont-size: 1.1rem; font-family: ‘Helvetica Neue’\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nG - Website navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites.\nfont-size: 1.1rem; font-family: ‘Arial’\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nG - Website navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites.\nfont-size: 1.1rem; font-family: ‘Roboto - downloaded’\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nG - Website navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites.\n\nfont-size: 1.2rem; font-family: ‘Source Sans Pro’\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nG - Website navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites.\nfont-size: 1.2rem; font-family: ‘Helvetica Neue’\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nG - Website navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites.\nfont-size: 1.2rem; font-family: ‘Arial’\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nG - Website navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites.\nfont-size: 1.2rem; font-family: ‘Roboto’\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nG - Website navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites.\n\nfont-size: 1.3rem; font-family: ‘Source Sans Pro’\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nG - Website navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites.\nfont-size: 1.3rem; font-family: ‘Helvetica Neue’\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nG - Website navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites.\nfont-size: 1.3rem; font-family: ‘Arial’\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nG - Website navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites.\nfont-size: 1.3rem; font-family: ‘Roboto’\nQuarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style.\nG - Website navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites."
+  },
+  {
+    "objectID": "text.html",
+    "href": "text.html",
+    "title": "Text",
     "section": "",
-    "text": "Content1Content2\n\n\nHere I link to other files to download.\n\n\n\nContent 1, pdf\nContent 2, downloads excel file\n\n\nColumns\n\n\nContent\n\n\n\n\nNewArchive\n\n\n\nContent 1, pdf\n\n\n\n\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\n\n\n\n\n\n\n\n\nOther things in columns\n\n\nContent\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n\n\n\n\nHere I link to other files to download.\n\n\n\nContent 1, pdf\nContent 2, downloads excel file"
-  },
-  {
-    "objectID": "content2.html",
-    "href": "content2.html",
-    "title": "Content page",
-    "section": "",
-    "text": "Here I link to other files to download."
-  },
-  {
-    "objectID": "content2.html#columns",
-    "href": "content2.html#columns",
-    "title": "Content page",
-    "section": "Columns",
-    "text": "Columns\n\n\nContent\n\n\n\n\nNewArchive\n\n\n\nContent 1, pdf\n\n\n\n\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf"
-  },
-  {
-    "objectID": "content2.html#other-things-in-columns",
-    "href": "content2.html#other-things-in-columns",
-    "title": "Content page",
-    "section": "Other things in columns",
-    "text": "Other things in columns\n\n\nContent\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "My Website Title",
-    "section": "",
-    "text": "This Website/Blog is made with Quarto, Creating a Website.\nThe idea is to have a minimal website skeleton with a:\n\nLanding page / Home\nContent page with downloads, Columns and Tabsets\nMenu pages\nLightbox Gallery\nBlog posts\nAbout page\n\n\nThemes\nHTML documents rendered with Quarto use Bootstrap 5 by default.\n\nWebsites/Blogs can use any of the 25 Bootswatch themes included with Quarto. For example, this website uses the cosmo theme. See the 25 themes here and the .scss theme files are here.\n\nYou can also create your own themes.\n\n\n\nOther extensions\nSee here a List of Quarto Extensions."
-  },
-  {
-    "objectID": "gallery.html",
-    "href": "gallery.html",
-    "title": "Galleries",
-    "section": "",
-    "text": "Take a look on this page at Image Galleries examples using 2 different tools:"
-  },
-  {
-    "objectID": "gallery.html#lightbox-gallery",
-    "href": "gallery.html#lightbox-gallery",
-    "title": "Galleries",
-    "section": "1 Lightbox Gallery",
-    "text": "1 Lightbox Gallery\nBelow are different samples using the Quarto Lightbox extension\n\n\nThe below demonstrates placing images with same sizes in 5 columns in a gallery. On mobile devices images are places underneath each other.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe below demonstrates placing images with same sizes in one row in a gallery. On mobile devices images are places underneath each other.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe below demonstrates placing images with different sizes in one row in a gallery. On mobile devices images are places underneath each other.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn image with automatic lightbox treatment.\n\n\n\n\n\n\n\nAn image without automatic lightbox treatment."
-  },
-  {
-    "objectID": "gallery.html#slickr-gallery",
-    "href": "gallery.html#slickr-gallery",
-    "title": "Galleries",
-    "section": "2 slickR Gallery",
-    "text": "2 slickR Gallery\nHere I use the {slickR} package to build an image carousel."
+    "text": "[font-size: 1em; font-family: ‘Roboto - downloaded’\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\nNunc ac dignissim magna. Vestibulum vitae egestas elit. Proin feugiat leo quis ante condimentum, eu ornare mauris feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris cursus laoreet ex, dignissim bibendum est posuere iaculis. Suspendisse et maximus elit. In fringilla gravida ornare. Aenean id lectus pulvinar, sagittis felis nec, rutrum risus. Nam vel neque eu arcu blandit fringilla et in quam. Aliquam luctus est sit amet vestibulum eleifend. Phasellus elementum sagittis molestie. Proin tempor lorem arcu, at condimentum purus volutpat eu. Fusce et pellentesque ligula. Pellentesque id tellus at erat luctus fringilla. Suspendisse potenti.\nEtiam maximus accumsan gravida. Maecenas at nunc dignissim, euismod enim ac, bibendum ipsum. Maecenas vehicula velit in nisl aliquet ultricies. Nam eget massa interdum, maximus arcu vel, pretium erat. Maecenas sit amet tempor purus, vitae aliquet nunc. Vivamus cursus urna velit, eleifend dictum magna laoreet ut. Duis eu erat mollis, blandit magna id, tincidunt ipsum. Integer massa nibh, commodo eu ex vel, venenatis efficitur ligula. Integer convallis lacus elit, maximus eleifend lacus ornare ac. Vestibulum scelerisque viverra urna id lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget enim at diam bibendum tincidunt eu non purus. Nullam id magna ultrices, sodales metus viverra, tempus turpis.\nDuis ornare ex ac iaculis pretium. Maecenas sagittis odio id erat pharetra, sit amet consectetur quam sollicitudin. Vivamus pharetra quam purus, nec sagittis risus pretium at. Nullam feugiat, turpis ac accumsan interdum, sem tellus blandit neque, id vulputate diam quam semper nisl. Donec sit amet enim at neque porttitor aliquet. Phasellus facilisis nulla eget placerat eleifend. Vestibulum non egestas eros, eget lobortis ipsum. Nulla rutrum massa eget enim aliquam, id porttitor erat luctus. Nunc sagittis quis eros eu sagittis. Pellentesque dictum, erat at pellentesque sollicitudin, justo augue pulvinar metus, quis rutrum est mi nec felis. Vestibulum efficitur mi lorem, at elementum purus tincidunt a. Aliquam finibus enim magna, vitae pellentesque erat faucibus at. Nulla mauris tellus, imperdiet id lobortis et, dignissim condimentum ipsum. Morbi nulla orci, varius at aliquet sed, facilisis id tortor. Donec ut urna nisi.\nAenean placerat luctus tortor vitae molestie. Nulla at aliquet nulla. Sed efficitur tellus orci, sed fringilla lectus laoreet eget. Vivamus maximus quam sit amet arcu dignissim, sed accumsan massa ullamcorper. Sed iaculis tincidunt feugiat. Nulla in est at nunc ultricies dictum ut vitae nunc. Aenean convallis vel diam at malesuada. Suspendisse arcu libero, vehicula tempus ultrices a, placerat sit amet tortor. Sed dictum id nulla commodo mattis. Aliquam mollis, nunc eu tristique faucibus, purus lacus tincidunt nulla, ac pretium lorem nunc ut enim. Curabitur eget mattis nisl, vitae sodales augue. Nam felis massa, bibendum sit amet nulla vel, vulputate rutrum lacus. Aenean convallis odio pharetra nulla mattis consequat.\nUt ut condimentum augue, nec eleifend nisl. Sed facilisis egestas odio ac pretium. Pellentesque consequat magna sed venenatis sagittis. Vivamus feugiat lobortis magna vitae accumsan. Pellentesque euismod malesuada hendrerit. Ut non mauris non arcu condimentum sodales vitae vitae dolor. Nullam dapibus, velit eget lacinia rutrum, ipsum justo malesuada odio, et lobortis sapien magna vel lacus. Nulla purus neque, hendrerit non malesuada eget, mattis vel erat. Suspendisse potenti.\nNullam dapibus cursus dolor sit amet consequat. Nulla facilisi. Curabitur vel nulla non magna lacinia tincidunt. Duis porttitor quam leo, et blandit velit efficitur ut. Etiam auctor tincidunt porttitor. Phasellus sed accumsan mi. Fusce ut erat dui. Suspendisse eu augue eget turpis condimentum finibus eu non lorem. Donec finibus eros eu ante condimentum, sed pharetra sapien sagittis. Phasellus non dolor ac ante mollis auctor nec et sapien. Pellentesque vulputate at nisi eu tincidunt. Vestibulum at dolor aliquam, hendrerit purus eu, eleifend massa. Morbi consectetur eros id tincidunt gravida. Fusce ut enim quis orci hendrerit lacinia sed vitae enim.\nNulla eget cursus ipsum. Vivamus porttitor leo diam, sed volutpat lectus facilisis sit amet. Maecenas et pulvinar metus. Ut at dignissim tellus. In in tincidunt elit. Etiam vulputate lobortis arcu, vel faucibus leo lobortis ac. Aliquam erat volutpat. In interdum orci ac est euismod euismod. Nunc eleifend tristique risus, at lacinia odio commodo in. Sed aliquet ligula odio, sed tempor neque ultricies sit amet."
   },
   {
     "objectID": "about.html",
@@ -105,24 +70,178 @@
     "text": "Education\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
-    "objectID": "menu01.html",
-    "href": "menu01.html",
-    "title": "Menu 1",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sandbox Website",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "text": "This Website/Blog is made with Quarto.\nThis is a sandbox website to try things out:\n\nLanding page / Home\nThemes, Colors and Extensions\nFonts\nContent page with downloads, Columns and Tabsets\nMenu pages\nCharts with ggplot2\nLightbox Gallery\nBlog posts\nAbout page\n…."
+  },
+  {
+    "objectID": "content.html",
+    "href": "content.html",
+    "title": "Content page",
+    "section": "",
+    "text": "Content1Content2\n\n\nHere I link to other files to download.\n\n\n\nContent 1, pdf\nContent 2, downloads excel file\n\n\nColumns\n\n\nContent\n\n\n\n\nNewArchive\n\n\n\nContent 1, pdf\n\n\n\n\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\nContent 1, pdf\n\n\n\n\n\n\n\n\nOther things in columns\n\n\nContent\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n\n\n\n\nHere I link to other files to download.\n\n\n\nContent 1, pdf\nContent 2, downloads excel file"
+  },
+  {
+    "objectID": "posts/2022-02-14-week7/index.html",
+    "href": "posts/2022-02-14-week7/index.html",
+    "title": "Week 7",
+    "section": "",
+    "text": "This i my post for week 7.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "objectID": "posts/2022-02-07-week6/index.html",
+    "href": "posts/2022-02-07-week6/index.html",
+    "title": "Week 6",
+    "section": "",
+    "text": "This i my post for week 6.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "objectID": "callout_blocks.html",
+    "href": "callout_blocks.html",
+    "title": "Callout Blocks",
+    "section": "",
+    "text": "Quarto Docs: Callout Blocks"
+  },
+  {
+    "objectID": "callout_blocks.html#default-appearance",
+    "href": "callout_blocks.html#default-appearance",
+    "title": "Callout Blocks",
+    "section": "Default Appearance",
+    "text": "Default Appearance\nwith colored header and an icon\n\n\n\n\n\n\nNote Title …\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nWarning Title …\n\n\n\nThe default appearance with colored header and an icon.\n\n\n\n\n\n\n\n\nImportant Title …\n\n\n\nThe default appearance with colored header and an icon.\n\n\n\n\n\n\n\n\nTip Title …\n\n\n\nThe default appearance with colored header and an icon.\n\n\n\n\n\n\n\n\nCaution Title …\n\n\n\nThe default appearance with colored header and an icon."
+  },
+  {
+    "objectID": "callout_blocks.html#customizing-appearance",
+    "href": "callout_blocks.html#customizing-appearance",
+    "title": "Callout Blocks",
+    "section": "Customizing Appearance",
+    "text": "Customizing Appearance\n\n\n\n\n\n\nNote Title …\n\n\n\nappearance=\"simple\": A lighter weight appearance that doesn’t include a colored header background.\n\n\n\n\n\n\n\n\nNote Title …\n\n\n\nappearance=\"minimal\": A minimal treatment that applies borders to the callout, but doesn’t include a header background color or icon.\n\n\n\n\n\n\n\n\nappearance=\"minimal\": A minimal treatment that applies borders to the callout, but doesn’t include a header background color or icon and without a title.\n\n\n\n\n\n\n\n\n\nNote Title …\n\n\n\nicon=false: You can also choose to directly suppress the icon.\n\n\n\n\n\n\n\n\nNote Title …collapse=true\n\n\n\n\n\ncollapse=\"true\": This is an example of a ‘folded’ note callout that can be expanded by the user.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est id erat ultricies maximus. Donec quis eros mi. Mauris consequat nunc lectus, eget convallis ligula ultrices sit amet.\nAenean facilisis tempor fringilla. Suspendisse a maximus justo, in tincidunt odio. Pellentesque semper justo sit amet erat interdum, sed pulvinar nisl ultrices. In sit amet neque neque. Nulla ultricies, risus et facilisis lobortis, dui tortor tempor nulla, eget hendrerit ex sem id ligula.\nMorbi sed rhoncus mi. Cras vel faucibus ligula. Aenean pretium tellus id enim porta interdum."
+  },
+  {
+    "objectID": "callout_blocks.html#my-example-weekly-schedule",
+    "href": "callout_blocks.html#my-example-weekly-schedule",
+    "title": "Callout Blocks",
+    "section": "My example: Weekly Schedule",
+    "text": "My example: Weekly Schedule\n\n\n\n\n\n\nMonday schedule\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est id erat ultricies maximus. Donec quis eros mi. Mauris consequat nunc lectus, eget convallis ligula ultrices sit amet.\nAenean facilisis tempor fringilla. Suspendisse a maximus justo, in tincidunt odio. Pellentesque semper justo sit amet erat interdum, sed pulvinar nisl ultrices. In sit amet neque neque. Nulla ultricies, risus et facilisis lobortis, dui tortor tempor nulla, eget hendrerit ex sem id ligula.\nMorbi sed rhoncus mi. Cras vel faucibus ligula. Aenean pretium tellus id enim porta interdum.\n\n\n\n\n\n\n\n\n\nTuesday schedule\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est id erat ultricies maximus. Donec quis eros mi. Mauris consequat nunc lectus, eget convallis ligula ultrices sit amet.\nAenean facilisis tempor fringilla. Suspendisse a maximus justo, in tincidunt odio. Pellentesque semper justo sit amet erat interdum, sed pulvinar nisl ultrices. In sit amet neque neque. Nulla ultricies, risus et facilisis lobortis, dui tortor tempor nulla, eget hendrerit ex sem id ligula.\nMorbi sed rhoncus mi. Cras vel faucibus ligula. Aenean pretium tellus id enim porta interdum.\n\n\n\n\n\n\n\n\n\nWednesday schedule\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est id erat ultricies maximus. Donec quis eros mi. Mauris consequat nunc lectus, eget convallis ligula ultrices sit amet.\nAenean facilisis tempor fringilla. Suspendisse a maximus justo, in tincidunt odio. Pellentesque semper justo sit amet erat interdum, sed pulvinar nisl ultrices. In sit amet neque neque. Nulla ultricies, risus et facilisis lobortis, dui tortor tempor nulla, eget hendrerit ex sem id ligula.\nMorbi sed rhoncus mi. Cras vel faucibus ligula. Aenean pretium tellus id enim porta interdum.\n\n\n\n\n\n\n\n\n\nThursday Exam\n\n\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis est id erat ultricies maximus. Donec quis eros mi. Mauris consequat nunc lectus, eget convallis ligula ultrices sit amet.\nAenean facilisis tempor fringilla. Suspendisse a maximus justo, in tincidunt odio. Pellentesque semper justo sit amet erat interdum, sed pulvinar nisl ultrices. In sit amet neque neque. Nulla ultricies, risus et facilisis lobortis, dui tortor tempor nulla, eget hendrerit ex sem id ligula.\nMorbi sed rhoncus mi. Cras vel faucibus ligula. Aenean pretium tellus id enim porta interdum."
+  },
+  {
+    "objectID": "callout_blocks.html#my-example-custom-icons-in-the-title-text",
+    "href": "callout_blocks.html#my-example-custom-icons-in-the-title-text",
+    "title": "Callout Blocks",
+    "section": "My example: Custom icons (in the title text)",
+    "text": "My example: Custom icons (in the title text)\n\n\n\n\n\n\n☎ Contact Information\n\n\n\n\n\nTintin\nMy Street 1\nMy Town, My Contry\n\n🌐 mywebsite.com\n📧 mymail.com\n☎️ 2233 4455\n\n\n\n\n\n\n\n\n\n Flight Information\n\n\n\n\n\nOutbound Journey:\n\nAtlantic Airways\nDeparture: Copenhagen/CPH Sunday, April 14, 10:00\nArrival: Vagar/FAE 12:15 (flight time 2t. 15min.)\n\nReturn Journey:\n\nAtlantic Airways\nDeparture: Vagar/FAE Friday, April 19, 13:00\nArrival: Copenhagen/CPH 15:05 (flight time 2t. 05min.)"
+  },
+  {
+    "objectID": "callout_blocks.html#ressources-for-other-customization",
+    "href": "callout_blocks.html#ressources-for-other-customization",
+    "title": "Callout Blocks",
+    "section": "Ressources for other Customization",
+    "text": "Ressources for other Customization\n\nMelissa Van Bussel (ggnot2) YouTube: How to create CUSTOM Callout Boxes in Quarto, with our own icons and colour schemes\nHere a nice Quarto website, where Neeldhara Misra takes Callout Blocks to the next level: Neeldhara Misra, GitHub\nBlogpost Making pretty note boxes"
+  },
+  {
+    "objectID": "callout_blocks.html#html-demo-details-element",
+    "href": "callout_blocks.html#html-demo-details-element",
+    "title": "Callout Blocks",
+    "section": "HTML Demo: details element",
+    "text": "HTML Demo: details element\n\n  HTML details\n  The details HTML element creates a disclosure widget in which information is visible only when the widget is toggled into an open state. A summary or label must be provided using the summary element.\n\n\n  Photo\n \n\n\n  PDF\n  Content 1, pdf"
+  },
+  {
+    "objectID": "posts/2022-01-31-week5/index.html",
+    "href": "posts/2022-01-31-week5/index.html",
+    "title": "Week 5",
+    "section": "",
+    "text": "This i my post for week 5.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  {
+    "objectID": "charts.html",
+    "href": "charts.html",
+    "title": "Charts and Code",
+    "section": "",
+    "text": "Inspired by this blog post by Albert Rapp.\n\n\n\nlibrary(ggplot2)\n\naapl_amzn_stock_prices &lt;- readr::read_csv('https://mlorenzen.com/a_csvfile/aapl_amzn_stock_prices.csv')\n\naapl_amzn_stock_prices |&gt; \n  ggplot(aes(x = date, y = close, color = stock_symbol)) +\n  geom_line(linewidth = 1) +\n  labs(\n    title = \"Apple and Amazon Stock Prices\", \n    caption = 'Data: TidyTuesday 2023 - Week 06',\n    x = element_blank(), \n    y = \"Closing Price (in USD)\",\n    color = 'Company'\n  ) +\n  theme_minimal(base_size = 14, base_family = \"\") +\n  theme(\n    panel.grid.minor = element_blank()\n  )\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\nflights_count &lt;- nycflights13::flights |&gt; \n  filter(!is.na(dep_time)) |&gt; \n  count(origin) |&gt; \n  mutate(origin = case_when(\n    origin == \"EWR\" ~ \"Newark Liberty Airport\",\n    origin == \"JFK\" ~ \"John F. Kennedy Airport\",\n    origin == \"LGA\" ~ \"LaGuardia Airport\"\n  )) \n\nflights_count |&gt;\n  ggplot(aes(y = origin, x = n)) +\n  geom_col(fill = 'firebrick3') +\n  theme_minimal(base_size = 14, base_family = \"\") +\n  theme(\n    panel.grid.minor = element_blank()\n  ) +\n  labs(\n    x = element_blank(),\n    y = element_blank(),\n    title = \"Number of Flights Leaving NYC in 2013\"\n  )\n\n\n\n\n\n\n\n\n\nmanufacturers &lt;- mpg |&gt; \n  dplyr::mutate(manufacturer = stringr::str_to_title(manufacturer))\n\n\nlibrary(ggplot2)\nlibrary(dplyr)\nlibrary(forcats)\n\nmanufacturers |&gt; \n  mutate(\n    manufacturer = forcats::fct_infreq(manufacturer) |&gt;\n      forcats::fct_rev()\n  ) |&gt; \n  ggplot(aes(y = manufacturer)) +\n  geom_bar(fill = 'dodgerblue4') +\n  geom_text(\n    data = count(manufacturers, manufacturer),\n    mapping = aes(\n      x = n, y = manufacturer, label = n\n    ),\n    hjust = 1,\n    nudge_x = -0.25,\n    color = 'white',\n    size = 6\n  ) +\n  labs(\n    x = element_blank(),\n    y = element_blank(), \n    title = 'Number of cars in the {mpg} dataset'\n  ) +\n  theme_minimal(\n    base_size =14,\n    base_family = ''\n  ) +\n  theme(\n    panel.grid.major.y = element_blank(),\n    panel.grid.minor.y = element_blank(),\n    plot.title = element_text(\n#      family = 'Merriweather',\n      size = rel(1.2)\n    ),\n    plot.title.position = 'plot'\n  ) +\n  scale_x_continuous(\n    expand = expansion(mult = c(0, 0.01))\n  )\n\n\n\n\n\n\n\n\n\nlibrary(ggplot2)\nlibrary(dplyr)\nlibrary(forcats)\nlibrary(stringr)\n\nmanufacturers |&gt; \n  mutate(\n    manufacturer = forcats::fct_infreq(manufacturer) |&gt;\n      forcats::fct_rev()\n  ) |&gt; \n  ggplot(aes(y = manufacturer)) +\n  geom_bar(\n    just = 1, \n    fill = 'dodgerblue4', \n    width = 0.4\n  ) +\n  geom_text(\n    data = count(manufacturers, manufacturer),\n    mapping = aes(\n      x = n, \n      y = manufacturer, \n      label = n\n    ),\n    hjust = 1,\n    vjust = 0,\n    nudge_y = 0.1,\n    color = 'grey30',\n    fontface = 'bold',\n    size = 4\n  ) +\n  geom_text(\n    data = count(manufacturers, manufacturer),\n    mapping = aes(\n      x = 0, \n      y = manufacturer, \n      label = stringr::str_to_title(manufacturer)\n    ),\n    hjust = 0,\n    vjust = 0,\n    nudge_y = 0.1,\n    nudge_x = 0.05,\n    color = 'grey30',\n    fontface = 'bold',\n    size = 4\n  ) +\n  labs(\n    y = element_blank(), \n    x = element_blank(),\n    title = 'Number of cars in the {mpg} dataset'\n  ) +\n  theme_minimal(\n    base_size = 14,\n    base_family = ''\n  ) +\n  theme(\n    panel.grid = element_blank(),\n    plot.title = element_text(\n#      family = 'Merriweather',\n      size = rel(1.2)\n    ),\n    plot.title.position = 'plot'\n  ) +\n  geom_vline(xintercept = 0) +\n  scale_x_continuous(\n    breaks = NULL, \n    expand = expansion(mult = c(0, 0.01))\n  ) +\n  scale_y_discrete(breaks = NULL)\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\ndeparted_flights &lt;- nycflights13::flights |&gt; \n  filter(!is.na(dep_delay))\n\ndeparted_flights|&gt; \n  ggplot(aes(x = dep_delay)) +\n  geom_histogram(fill = 'dodgerblue4', binwidth = 5) +\n  coord_cartesian(xlim = c(-20, 300))  +\n  theme_minimal(base_size = 14, base_family = \"\") +\n  theme(\n    panel.grid.minor = element_blank()\n  ) +\n  labs(\n    x = 'Departure Delay (in minutes)',\n    y = element_blank(),\n    title = \"Number of Delayed Flights Leaving NYC in 2013\"\n  )\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\ngapminder::gapminder |&gt; \n  filter(year == 2007) |&gt; \n  ggplot(aes(x = gdpPercap, y = lifeExp)) +\n  geom_point(\n    aes(color = continent, size = pop), \n    alpha = 0.8\n  ) +\n  theme_minimal(base_size = 14, base_family = \"\") +\n  theme(\n    panel.grid.minor = element_blank()\n  ) +\n  labs(\n    x = 'GDP per Capita (in USD)',\n    y = 'Life Expectancy (in years)',\n    title = \"Life Expectancies and GDP per Capita in 2007\",\n    color = 'Continent',\n    size = 'Population'\n  ) +\n  guides(size = guide_none())\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(ggplot2)\nlibrary(dplyr)\nlibrary(lubridate)\n\nflights_day_counts &lt;- departed_flights |&gt; \n  mutate(\n    date = lubridate::make_date(year, month, day),\n    week = lubridate::week(date),\n    day = lubridate::wday(date, week_start = 1)\n  ) |&gt; \n  count(week, day) |&gt; \n  mutate(\n    day = case_when(\n      day == 1 ~ \"Monday\",\n      day == 2 ~ \"Tuesday\",\n      day == 3 ~ \"Wednesday\",\n      day == 4 ~ \"Thursday\",\n      day == 5 ~ \"Friday\",\n      day == 6 ~ \"Saturday\",\n      day == 7 ~ \"Sunday\"\n    ),\n    day = factor(day, levels = c(\n        \"Monday\",\n        \"Tuesday\",\n        \"Wednesday\",\n        \"Thursday\",\n        \"Friday\",\n        \"Saturday\",\n        \"Sunday\"\n      )\n    )\n  ) \n\n\nflights_day_counts |&gt; \n  ggplot(aes(x = week, y = day, fill = n)) +\n  geom_tile(color = 'white') +\n  coord_equal() +\n  scale_fill_gradient(low = 'white', high = 'dodgerblue3') +\n  theme_minimal(base_size = 14, base_family = \"\") +\n  theme(\n    panel.grid.minor = element_blank(),\n    legend.position = 'top'\n  ) +\n  labs(\n    x = 'Week',\n    y = element_blank(),\n    title = \"Number of Flights Leaving NYC in 2013\",\n    fill = 'Flights'\n  ) +\n  guides(\n    fill = guide_colorbar(barwidth = unit(10, 'cm'))\n  )"
+  },
+  {
+    "objectID": "charts.html#example-charts-with-ggplot2",
+    "href": "charts.html#example-charts-with-ggplot2",
+    "title": "Charts and Code",
+    "section": "",
+    "text": "Inspired by this blog post by Albert Rapp.\n\n\n\nlibrary(ggplot2)\n\naapl_amzn_stock_prices &lt;- readr::read_csv('https://mlorenzen.com/a_csvfile/aapl_amzn_stock_prices.csv')\n\naapl_amzn_stock_prices |&gt; \n  ggplot(aes(x = date, y = close, color = stock_symbol)) +\n  geom_line(linewidth = 1) +\n  labs(\n    title = \"Apple and Amazon Stock Prices\", \n    caption = 'Data: TidyTuesday 2023 - Week 06',\n    x = element_blank(), \n    y = \"Closing Price (in USD)\",\n    color = 'Company'\n  ) +\n  theme_minimal(base_size = 14, base_family = \"\") +\n  theme(\n    panel.grid.minor = element_blank()\n  )\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\nflights_count &lt;- nycflights13::flights |&gt; \n  filter(!is.na(dep_time)) |&gt; \n  count(origin) |&gt; \n  mutate(origin = case_when(\n    origin == \"EWR\" ~ \"Newark Liberty Airport\",\n    origin == \"JFK\" ~ \"John F. Kennedy Airport\",\n    origin == \"LGA\" ~ \"LaGuardia Airport\"\n  )) \n\nflights_count |&gt;\n  ggplot(aes(y = origin, x = n)) +\n  geom_col(fill = 'firebrick3') +\n  theme_minimal(base_size = 14, base_family = \"\") +\n  theme(\n    panel.grid.minor = element_blank()\n  ) +\n  labs(\n    x = element_blank(),\n    y = element_blank(),\n    title = \"Number of Flights Leaving NYC in 2013\"\n  )\n\n\n\n\n\n\n\n\n\nmanufacturers &lt;- mpg |&gt; \n  dplyr::mutate(manufacturer = stringr::str_to_title(manufacturer))\n\n\nlibrary(ggplot2)\nlibrary(dplyr)\nlibrary(forcats)\n\nmanufacturers |&gt; \n  mutate(\n    manufacturer = forcats::fct_infreq(manufacturer) |&gt;\n      forcats::fct_rev()\n  ) |&gt; \n  ggplot(aes(y = manufacturer)) +\n  geom_bar(fill = 'dodgerblue4') +\n  geom_text(\n    data = count(manufacturers, manufacturer),\n    mapping = aes(\n      x = n, y = manufacturer, label = n\n    ),\n    hjust = 1,\n    nudge_x = -0.25,\n    color = 'white',\n    size = 6\n  ) +\n  labs(\n    x = element_blank(),\n    y = element_blank(), \n    title = 'Number of cars in the {mpg} dataset'\n  ) +\n  theme_minimal(\n    base_size =14,\n    base_family = ''\n  ) +\n  theme(\n    panel.grid.major.y = element_blank(),\n    panel.grid.minor.y = element_blank(),\n    plot.title = element_text(\n#      family = 'Merriweather',\n      size = rel(1.2)\n    ),\n    plot.title.position = 'plot'\n  ) +\n  scale_x_continuous(\n    expand = expansion(mult = c(0, 0.01))\n  )\n\n\n\n\n\n\n\n\n\nlibrary(ggplot2)\nlibrary(dplyr)\nlibrary(forcats)\nlibrary(stringr)\n\nmanufacturers |&gt; \n  mutate(\n    manufacturer = forcats::fct_infreq(manufacturer) |&gt;\n      forcats::fct_rev()\n  ) |&gt; \n  ggplot(aes(y = manufacturer)) +\n  geom_bar(\n    just = 1, \n    fill = 'dodgerblue4', \n    width = 0.4\n  ) +\n  geom_text(\n    data = count(manufacturers, manufacturer),\n    mapping = aes(\n      x = n, \n      y = manufacturer, \n      label = n\n    ),\n    hjust = 1,\n    vjust = 0,\n    nudge_y = 0.1,\n    color = 'grey30',\n    fontface = 'bold',\n    size = 4\n  ) +\n  geom_text(\n    data = count(manufacturers, manufacturer),\n    mapping = aes(\n      x = 0, \n      y = manufacturer, \n      label = stringr::str_to_title(manufacturer)\n    ),\n    hjust = 0,\n    vjust = 0,\n    nudge_y = 0.1,\n    nudge_x = 0.05,\n    color = 'grey30',\n    fontface = 'bold',\n    size = 4\n  ) +\n  labs(\n    y = element_blank(), \n    x = element_blank(),\n    title = 'Number of cars in the {mpg} dataset'\n  ) +\n  theme_minimal(\n    base_size = 14,\n    base_family = ''\n  ) +\n  theme(\n    panel.grid = element_blank(),\n    plot.title = element_text(\n#      family = 'Merriweather',\n      size = rel(1.2)\n    ),\n    plot.title.position = 'plot'\n  ) +\n  geom_vline(xintercept = 0) +\n  scale_x_continuous(\n    breaks = NULL, \n    expand = expansion(mult = c(0, 0.01))\n  ) +\n  scale_y_discrete(breaks = NULL)\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\ndeparted_flights &lt;- nycflights13::flights |&gt; \n  filter(!is.na(dep_delay))\n\ndeparted_flights|&gt; \n  ggplot(aes(x = dep_delay)) +\n  geom_histogram(fill = 'dodgerblue4', binwidth = 5) +\n  coord_cartesian(xlim = c(-20, 300))  +\n  theme_minimal(base_size = 14, base_family = \"\") +\n  theme(\n    panel.grid.minor = element_blank()\n  ) +\n  labs(\n    x = 'Departure Delay (in minutes)',\n    y = element_blank(),\n    title = \"Number of Delayed Flights Leaving NYC in 2013\"\n  )\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(ggplot2)\nlibrary(dplyr)\n\ngapminder::gapminder |&gt; \n  filter(year == 2007) |&gt; \n  ggplot(aes(x = gdpPercap, y = lifeExp)) +\n  geom_point(\n    aes(color = continent, size = pop), \n    alpha = 0.8\n  ) +\n  theme_minimal(base_size = 14, base_family = \"\") +\n  theme(\n    panel.grid.minor = element_blank()\n  ) +\n  labs(\n    x = 'GDP per Capita (in USD)',\n    y = 'Life Expectancy (in years)',\n    title = \"Life Expectancies and GDP per Capita in 2007\",\n    color = 'Continent',\n    size = 'Population'\n  ) +\n  guides(size = guide_none())\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(ggplot2)\nlibrary(dplyr)\nlibrary(lubridate)\n\nflights_day_counts &lt;- departed_flights |&gt; \n  mutate(\n    date = lubridate::make_date(year, month, day),\n    week = lubridate::week(date),\n    day = lubridate::wday(date, week_start = 1)\n  ) |&gt; \n  count(week, day) |&gt; \n  mutate(\n    day = case_when(\n      day == 1 ~ \"Monday\",\n      day == 2 ~ \"Tuesday\",\n      day == 3 ~ \"Wednesday\",\n      day == 4 ~ \"Thursday\",\n      day == 5 ~ \"Friday\",\n      day == 6 ~ \"Saturday\",\n      day == 7 ~ \"Sunday\"\n    ),\n    day = factor(day, levels = c(\n        \"Monday\",\n        \"Tuesday\",\n        \"Wednesday\",\n        \"Thursday\",\n        \"Friday\",\n        \"Saturday\",\n        \"Sunday\"\n      )\n    )\n  ) \n\n\nflights_day_counts |&gt; \n  ggplot(aes(x = week, y = day, fill = n)) +\n  geom_tile(color = 'white') +\n  coord_equal() +\n  scale_fill_gradient(low = 'white', high = 'dodgerblue3') +\n  theme_minimal(base_size = 14, base_family = \"\") +\n  theme(\n    panel.grid.minor = element_blank(),\n    legend.position = 'top'\n  ) +\n  labs(\n    x = 'Week',\n    y = element_blank(),\n    title = \"Number of Flights Leaving NYC in 2013\",\n    fill = 'Flights'\n  ) +\n  guides(\n    fill = guide_colorbar(barwidth = unit(10, 'cm'))\n  )"
+  },
+  {
+    "objectID": "themes.html",
+    "href": "themes.html",
+    "title": "Themes, Colors and Extensions",
+    "section": "",
+    "text": "HTML documents rendered with Quarto use Bootstrap 5 by default.\n\nWebsites/Blogs can use any of the 25 Bootswatch themes included with Quarto. For example, this website uses the cosmo theme. See the 25 themes here and the .scss theme files are here.\n\n\nYou can also create your own themes.\n\nQuickly get your Quarto HTML theme in order - posit::conf(2023), see .scss files here\n\n\n\n\n\n_quarto.yml\n\nformat:\n  html:\n    theme:\n      - cosmo\n      - theme_custom.scss\n    css: styles.css        # empty\n    fontsize: 1.1em\n    toc: true\n\n\n\ntheme_custom.scss\n\n/*-- scss:defaults --*/\n// Sass variables for websites, books, manuscripts, revealjs presentations\n\n$navbar-bg: #052962;\n\nyeti theme could be an alternative. The theme has “Open Sans” font (default)."
+  },
+  {
+    "objectID": "themes.html#themes",
+    "href": "themes.html#themes",
+    "title": "Themes, Colors and Extensions",
+    "section": "",
+    "text": "HTML documents rendered with Quarto use Bootstrap 5 by default.\n\nWebsites/Blogs can use any of the 25 Bootswatch themes included with Quarto. For example, this website uses the cosmo theme. See the 25 themes here and the .scss theme files are here.\n\n\nYou can also create your own themes.\n\nQuickly get your Quarto HTML theme in order - posit::conf(2023), see .scss files here\n\n\n\n\n\n_quarto.yml\n\nformat:\n  html:\n    theme:\n      - cosmo\n      - theme_custom.scss\n    css: styles.css        # empty\n    fontsize: 1.1em\n    toc: true\n\n\n\ntheme_custom.scss\n\n/*-- scss:defaults --*/\n// Sass variables for websites, books, manuscripts, revealjs presentations\n\n$navbar-bg: #052962;\n\nyeti theme could be an alternative. The theme has “Open Sans” font (default)."
+  },
+  {
+    "objectID": "themes.html#colors",
+    "href": "themes.html#colors",
+    "title": "Themes, Colors and Extensions",
+    "section": "Colors",
+    "text": "Colors\n\nlibrary(scales)\n\nmy_colors &lt;- c(\"#1F2F57\",  # Volkswagen Space Cadet\n               \"#6091C3\",  # Volkswagen Silver Lake Blue\n               \"#001E50\",  # Volkswagen Navy\n               \"#041f4a\",  # The Guardian Brand Dark\n               \"#052962\",  # The Guardian Brand Main\n               \"#506991\",  # The Guardian Brand Pastel\n               \"#236925\",  # The Guardian Green Dark\n               \"#3db540\",  # The Guardian Green Main\n               \"#ffffff\",  \n               \"#ffe500\",  # The Guardian Highlight main\n               \"#ffbb50\")  # The Guardian Highlight dark\n\nscales::show_col(my_colors, ncol = 3)\n\n\n\n\n\n\n\n\n\nflags01   &lt;- c(\"#008C45\",  # Italy flag\n               \"#F4F5F0\",  # Italy flag     \n               \"#CD212A\",  # Italy flag     \n               \"#FFFFFF\",  # Faroe Islands flag\n               \"#0165BF\",  # Faroe Islands flag     \n               \"#EE2436\",  # Faroe Islands flag                    \n               \"#078930\",  # Ethiopia flag\n               \"#FCDD09\",  # Ethiopia flag     \n               \"#DA121A\",  # Ethiopia flag                    \n               \"#0F47AF\",  # Ethiopia flag\n               \"#078930\",  # Ethiopia flag\n               \"#FCDD09\")  # Ethiopia flag\n               \nscales::show_col(flags01, ncol = 3)\n\n\n\n\n\n\n\n\n\nflags02   &lt;- c(\"#0055A4\",  # France flag\n               \"#FFFFFF\",  # France flag     \n               \"#EF4135\",  # France flag                      \n               \"#AA151B\",  # Spain flag\n               \"#F1BF00\",  # Spain flag     \n               \"#AA151B\",  # Spain flag    \n               \"#C60C30\",  # Denmark flag\n               \"#FFFFFF\",  # Denmark flag     \n               \"#C60C30\",  # Denmark flag             \n               \"#004B87\",  # Sweden flag\n               \"#FFCD00\",  # Sweden flag     \n               \"#004B87\")  # Sweden flag\n               \nscales::show_col(flags02, ncol = 3)\n\n\n\n\n\n\n\n\n\nflags03   &lt;- c(\"#C8102E\",  # Norway flag\n               \"#FFFFFF\",  # Norway flag     \n               \"#003087\",  # Norway flag\n               \"#ffffff\",  \n               \"#ffffff\",  \n               \"#ffffff\",  \n               \"#ffffff\",  \n               \"#ffffff\",  \n               \"#ffffff\",  \n               \"#ffffff\",  \n               \"#ffffff\",  \n               \"#ffffff\")\n\nscales::show_col(flags03, ncol = 3)\n\n\n\n\n\n\n\n\n\nA guide to digital design at the Guardian\nHow to choose your brand colors (plus 10 examples to learn from)\nCreating Custom Color Palettes with ggplot2"
+  },
+  {
+    "objectID": "themes.html#extensions",
+    "href": "themes.html#extensions",
+    "title": "Themes, Colors and Extensions",
+    "section": "Extensions",
+    "text": "Extensions\nOn this website I use the following extensions:\n\nquarto-ext/lightbox , version 0.1.9\n\nquarto-ext/fontawesome , version 1.2.0\n\n\n\n\n\n\n\n\n\n\n\nSee here a List of Quarto Extensions."
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "Galleries",
+    "section": "",
+    "text": "Take a look on this page at Image Galleries examples using 2 different tools:"
+  },
+  {
+    "objectID": "gallery.html#photos-placed-in-columns",
+    "href": "gallery.html#photos-placed-in-columns",
+    "title": "Galleries",
+    "section": "1 Photos placed in columns",
+    "text": "1 Photos placed in columns\n2 images placed in columns (with .nolightbox)"
+  },
+  {
+    "objectID": "gallery.html#lightbox-gallery",
+    "href": "gallery.html#lightbox-gallery",
+    "title": "Galleries",
+    "section": "2 Lightbox Gallery",
+    "text": "2 Lightbox Gallery\nBelow are different samples using the Quarto Lightbox extension\n\n\nThe below demonstrates placing images with same sizes in 5 columns in a gallery. On mobile devices images are places underneath each other.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe below demonstrates placing images with same sizes in one row in a gallery. On mobile devices images are places underneath each other.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe below demonstrates placing images with different sizes in one row in a gallery. On mobile devices images are places underneath each other.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn image with automatic lightbox treatment.\n\n\n\n\n\n\n\nCan Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen)\n\n\n\n\nAn image without automatic lightbox treatment.\n\n\n\nCan Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen)"
+  },
+  {
+    "objectID": "gallery.html#slickr-gallery",
+    "href": "gallery.html#slickr-gallery",
+    "title": "Galleries",
+    "section": "3 slickR Gallery",
+    "text": "3 slickR Gallery\nHere I use the {slickR} package to build an image carousel.\n\n\n\n\n\n\n\n\n\n\n\n\nCan Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen)\n\n\nCan Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen)\n\n\nCan Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen)\n\n\nCan Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen)\n\n\nCan Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen)\n\n\nCan Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen)\n\n\nCan Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen)\n\n\nBrage på tur på Isefjorden og Roskilde fjord i 2021. (© Morten Lorenzen)\n\n\nTjalfe, Freja og Røskva på tur på Isefjorden og Roskilde fjord i 2021. (© Morten Lorenzen)\n\n\nInriggere på tur på Isefjorden og Roskilde fjord i 2021. (© Morten Lorenzen)\n\n\nMed gig både på Douro floden i Portugal i 2021. (© Morten Lorenzen)\n\n\nMed gig både på Douro floden i Portugal i 2021. (© Morten Lorenzen)\n\n\nMed gig både på Douro floden i Portugal i 2021. (© Morten Lorenzen)\n\n\nHere is a text for the image.\n\n\nHere is a text for the image.\n\n\nHere is a text for the image.\n\n\nHere is a text for the image.\n\n\nHere is a text for the image.\n\n\nHere is a text for the image.\n\n\nHere is a text for the image.\n\n\nHere is a text for the image.\n\n\nHere is a text for the image.\n\n\nCan Lis - et af Utzons mesterværker på Mallorca. (© Morten Lorenzen)"
+  },
+  {
+    "objectID": "layout_image.html",
+    "href": "layout_image.html",
+    "title": "My Website",
+    "section": "",
+    "text": "column-screen\n\n\n column-page\n\n\n column-page-inset\n\n\n column-body-outset\n\n\n column-body"
   },
   {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "Posts",
     "section": "",
-    "text": "Week 7\n\n\n\n\n\n\n\n\n\n\n\n\nFeb 14, 2022\n\n\nMy Name\n\n\n\n\n\n\n  \n\n\n\n\nWeek 6\n\n\n\n\n\n\n\n\n\n\n\n\nFeb 7, 2022\n\n\nMy Name\n\n\n\n\n\n\n  \n\n\n\n\nWeek 5\n\n\n\n\n\n\n\n\n\n\n\n\nJan 31, 2022\n\n\nMy Name\n\n\n\n\n\n\nNo matching items"
+    "text": "Week 7\n\n\n\n\n\n\n\n\nFeb 14, 2022\n\n\nMy Name\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6\n\n\n\n\n\n\n\n\nFeb 7, 2022\n\n\nMy Name\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\n\n\n\n\nJan 31, 2022\n\n\nMy Name\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "menu02.html",
-    "href": "menu02.html",
-    "title": "Menu 2",
+    "objectID": "hyperlinks.html",
+    "href": "hyperlinks.html",
+    "title": "Hyperlinks",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "text": "Link to other pages on the website:\n\nLink to HTML Fontsizes\nLink to Blog Post Week 6"
   }
 ]

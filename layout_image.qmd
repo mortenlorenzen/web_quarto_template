@@ -1,0 +1,40 @@
+---
+title: ""
+---
+
+::: {.column-screen}
+![](images/fullscreen.jpg)
+column-screen
+:::
+
+
+
+::: {.column-page}
+![](images/fullscreen.jpg)
+column-page
+:::
+
+
+::: {.column-page-inset}
+![](images/fullscreen.jpg)
+column-page-inset
+:::
+
+
+::: {.column-body-outset}
+![](images/fullscreen.jpg)
+column-body-outset
+:::
+
+
+::: {.column-body}
+![](images/fullscreen.jpg)
+column-body
+:::
+
+
+
+
+
+
+

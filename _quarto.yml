@@ -16,23 +16,35 @@ website:
     right:
       - href: index.qmd
         text: Home
+      - href: themes.qmd
+        text: Themes
+      - href: fonts.qmd
+        text: Fonts
       - href: content.qmd
         text: Content
       - text: Menu
         menu:
-        - text: Menu 1
-          href: menu01.qmd
-        - text: Menu 2
-          href: menu02.qmd
-      - href: gallery.qmd
-        text: Gallery       
+        - text: Images Layout 
+          href: layout_image.qmd
+        - text: Images Gallery            
+          href: gallery.qmd
+        - text: Charts
+          href: charts.qmd
+        - text: Google Sheet
+          href: google_sheet.qmd
+        - text: Callout Blocks
+          href: callout_blocks.qmd
+        - text: Text
+          href: text.qmd
+        - text: Hyperlinks
+          href: hyperlinks.qmd
       - href: posts.qmd
-        text: Posts
+        text: Blog Posts
       - href: about.qmd
         text: About
         
   page-footer: 
-    center: "© 2023. Website made with [Quarto](https://quarto.org/)."
+    center: "© 2025. Website made with [Quarto](https://quarto.org/)."
     background: light
 
 
@@ -40,9 +52,12 @@ format:
   html:
     theme:
       - cosmo
+      - css/roboto.css   # downloaded font
       - theme_custom.scss
-    css: styles.css
+#    css: styles.css        # empty
+    mainfont: "Roboto"
+    fontsize: 1.1em
     toc: true
-
-# editor: visual
+    
+# embed-resources: true
 

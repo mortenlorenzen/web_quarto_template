@@ -1,0 +1,142 @@
+---
+title: "Fonts and fontsizes"
+
+text01: "Quarto Websites are a convenient way to publish groups of documents. Documents published as part of a website share navigational elements, rendering options, and visual style."
+text02: "ebsite navigation can be provided through a global navbar, a sidebar with links, or a combination of both for sites that have multiple levels of content. You can also enable full text search for websites."
+---
+
+
+
+## Theme Cosmo fonts
+
+Fonts in the Cosmo theme [`cosmo.scss` file](https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/themes/cosmo.scss):
+```{.scss filename="cosmo.scss"}
+$font-family-sans-serif:    "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+```
+
+- `-apple-system` and `BlinkMacSystemFont` are aliases for the default fonts on new macOS and iOS computers.
+- If the first font is not available on the user's system, the browser will try the next one, and so on. 
+- `Segoe *`  from Microsoft, used on Windows
+- I use the default font `"Source Sans Pro"`. See also here the Google font: [Source Sans 3](https://fonts.google.com/specimen/Source+Sans+3?query=Source+Sans)
+
+I can change the font in the `_quarto.yml` file
+```{.yaml filename="_quarto.yml"}
+format:
+  html:
+    theme:
+      - cosmo
+      - theme_custom.scss
+    css: styles.css
+    mainfont: "Helvetica Neue"
+```
+
+Only small difference between "Arial" and "Helvetica Neue".
+
+![](images/arial_helvetica.png)
+
+- [font-family CSS property](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
+- [World Wide Web Consortium (W3C): FONT FAMILIES](https://www.w3.org/Style/Examples/007/fonts.en.html)
+- [Font Matrix – See & Pair Typefaces Like Never Before](https://pimpmytype.com/font-matrix/)
+- [Compare "Source Sans Pro" and "Open Sans"](https://design-guidelines.web.cern.ch/guidelines/web-fonts)
+- [2 Google Fonts Similar to Calibri](https://similarfont.io/2-google-fonts-similar-to-calibri)
+
+
+## HTML Fontsizes
+
+Bootstrap defines over 1,400 Sass variables that control fonts, colors, padding, borders, and much more. You can see all of the variables here: [bootstrap/scss/_variables.scss](https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss)
+```{.scss filename="_variables.scss"}
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+
+```
+
+- 1em   -> 16px
+- 1.1em -> 17.6px
+- 1.2em -> 19.2px
+- 1.3em -> 20.8px
+
+When I have `fontsize: 1.1em` in my `quarto.yaml` file and I define a new fontsize in my `qmd` files, I will keep same fontsize with `1rem` and increase fontsize with `1.1rem`from 17.6px x 1.1 to 19.36px.
+
+## Compare HTML fontsizes and fonts
+
+[**font-size: 1rem; font-family: 'Source Sans Pro'**\
+{{< meta text01 >}}\
+G - W{{< meta text02 >}}]{style="font-size: 1rem; font-family: 'Source Sans Pro'"}
+
+[**font-size: 1rem; font-family: 'Helvetica Neue'**\
+{{< meta text01 >}}\
+G - W{{< meta text02 >}}]{style="font-size: 1rem; font-family: 'Helvetica Neue'"}
+
+[**font-size: 1rem; font-family: 'Arial'**\
+{{< meta text01 >}}\
+G - W{{< meta text02 >}}]{style="font-size: 1rem; font-family: 'Arial'"}
+
+[**font-size: 1rem; font-family: 'Roboto - downloaded'**\
+{{< meta text01 >}}\
+G - W{{< meta text02 >}}]{style="font-size: 1rem; font-family: 'Roboto'"}
+
+--------------------------------------------
+
+[**NO CHANGE in font-size, font-family: 'Roboto - downloaded'**\
+{{< meta text01 >}}\
+G - W{{< meta text02 >}}]{style="font-family: 'Roboto'"}
+
+--------------------------------------------
+
+[**font-size: 1.1rem; font-family: 'Source Sans Pro'**\
+{{< meta text01 >}}\
+G - W{{< meta text02 >}}]{style="font-size: 1.1rem; font-family: 'Source Sans Pro'"}
+
+[**font-size: 1.1rem; font-family: 'Helvetica Neue'**\
+{{< meta text01 >}}\
+G - W{{< meta text02 >}}]{style="font-size: 1.1rem; font-family: 'Helvetica Neue'"}
+
+[**font-size: 1.1rem; font-family: 'Arial'**\
+{{< meta text01 >}}\
+G - W{{< meta text02 >}}]{style="font-size: 1.1rem; font-family: 'Arial'"}
+
+[**font-size: 1.1rem; font-family: 'Roboto - downloaded'**\
+{{< meta text01 >}}\
+G - W{{< meta text02 >}}]{style="font-size: 1.1rem; font-family: 'Roboto'"}
+
+--------------------------------------------
+
+[**font-size: 1.2rem; font-family: 'Source Sans Pro'**\
+{{< meta text01 >}}\
+G - W{{< meta text02 >}}]{style="font-size: 1.2rem; font-family: 'Source Sans Pro'"}
+
+[**font-size: 1.2rem; font-family: 'Helvetica Neue'**\
+{{< meta text01 >}}\
+G - W{{< meta text02 >}}]{style="font-size: 1.2rem; font-family: 'Helvetica Neue'"}
+
+[**font-size: 1.2rem; font-family: 'Arial'**\
+{{< meta text01 >}}\
+G - W{{< meta text02 >}}]{style="font-size: 1.2rem; font-family: 'Arial'"}
+
+[**font-size: 1.2rem; font-family: 'Roboto'**\
+{{< meta text01 >}}\
+G - W{{< meta text02 >}}]{style="font-size: 1.2rem; font-family: 'Roboto'"}
+
+--------------------------------------------
+
+[**font-size: 1.3rem; font-family: 'Source Sans Pro'**\
+{{< meta text01 >}}\
+G - W{{< meta text02 >}}]{style="font-size: 1.3rem; font-family: 'Source Sans Pro'"}
+
+[**font-size: 1.3rem; font-family: 'Helvetica Neue'**\
+{{< meta text01 >}}\
+G - W{{< meta text02 >}}]{style="font-size: 1.3rem; font-family: 'Helvetica Neue'"}
+
+[**font-size: 1.3rem; font-family: 'Arial'**\
+{{< meta text01 >}}\
+G - W{{< meta text02 >}}]{style="font-size: 1.3rem; font-family: 'Arial'"}
+
+[**font-size: 1.3rem; font-family: 'Roboto'**\
+{{< meta text01 >}}\
+G - W{{< meta text02 >}}]{style="font-size: 1.3rem; font-family: 'Roboto'"}
+
+--------------------------------------------
+
+
+
+

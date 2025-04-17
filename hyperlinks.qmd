@@ -1,0 +1,9 @@
+---
+title: "Hyperlinks"
+---
+
+
+Link to other pages on the website:
+
+- Link to [HTML Fontsizes](fonts.qmd#html-fontsizes)
+- Link to [Blog Post Week 6](posts/2022-02-07-week6/index.qmd)

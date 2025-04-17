@@ -1,0 +1,18 @@
+---
+title: "Share Google Sheet"
+---
+
+The owner of the Google Sheet manages access rights in Google Drive.
+
+
+Open and edit Google Sheet [test](https://docs.google.com/spreadsheets/d/1dnzTx2TIxk-QpoWNz08Jr_e4F2rZ4mDBgphzq9lwdYM/edit?usp=sharing)
+
+--------------------
+
+Embed Google Sheet `test` and edit:
+
+```{=html}
+<iframe width="800" height="500" src="https://docs.google.com/spreadsheets/d/1dnzTx2TIxk-QpoWNz08Jr_e4F2rZ4mDBgphzq9lwdYM/edit?usp=sharing" title="Google Sheet"></iframe>
+```
+
+
